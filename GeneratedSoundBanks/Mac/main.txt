@@ -1,0 +1,20 @@
+Event	ID	Name			Wwise Object Path	Notes
+	94063951	play_ambiente			\Default Work Unit\play_ambiente	
+	1288147546	Play_sfx_ambient			\Default Work Unit\Play_sfx_ambient	
+
+Effect plug-ins	ID	Name	Type				Notes
+	276071258	One_Tap_Half_Second (Custom)	Wwise Delay			
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	57721340	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\sfx_ambient\silencio_3\Wwise Silence	
+	648587290	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\sfx_ambient\silencio\Wwise Silence	
+	1068188150	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\sfx_ambient\silencio_2\Wwise Silence	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	69101487	pajaro_2_120bpm	Y:\Documents\GitHub\Wwise-Preservation\.cache\Mac\SFX\pajaro_2_120bpm_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_ambient\pajaro_2_120bpm		181568
+	87939959	pajaro_lejano_69_91bpm	Y:\Documents\GitHub\Wwise-Preservation\.cache\Mac\SFX\pajaro_lejano_69.91bpm_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_ambient\pajaro_lejano_69_91bpm		388216
+	160891480	wind_120bpm	Y:\Documents\GitHub\Wwise-Preservation\.cache\Mac\SFX\wind_120bpm_4BACB3C6.wem		\Actor-Mixer Hierarchy\Default Work Unit\ambient_wind\wind_120bpm		324476
+	881712007	wind_120bpm_02	Y:\Documents\GitHub\Wwise-Preservation\.cache\Mac\SFX\wind_120bpm_5E2BA45D.wem		\Actor-Mixer Hierarchy\Default Work Unit\ambient_wind\wind_120bpm_02		1543412
+	993192625	pajaro_1_120bpm	Y:\Documents\GitHub\Wwise-Preservation\.cache\Mac\SFX\pajaro_1_120bpm_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_ambient\pajaro_1_120bpm		196820
+	1045311171	wind_120bpm_01	Y:\Documents\GitHub\Wwise-Preservation\.cache\Mac\SFX\wind_120bpm_EE5F3EAD.wem		\Actor-Mixer Hierarchy\Default Work Unit\ambient_wind\wind_120bpm_01		543932
+

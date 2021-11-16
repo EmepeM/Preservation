@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{935AAA73-472D-4B52-B8F5-1BBB14DDEF03}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{935AAA73-472D-4B52-B8F5-1BBB14DDEF03}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="play_ambiente" ID="{BA261C68-E6A2-4002-99E0-C904370EEFDB}">
+					<ChildrenList>
+						<Action Name="" ID="{CAD83992-7DBF-4E10-B22D-F74A44996A30}" ShortID="413430048">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ambient_wind" ID="{C828D27B-C3B5-463E-BA84-1637C09315D8}" WorkUnitID="{2FEF5410-8492-4D8A-8828-709452CC7011}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sfx_ambient" ID="{8E392B74-B7E9-482F-AA57-F97C73446ABF}">
+					<ChildrenList>
+						<Action Name="" ID="{FA8AE31D-AB4F-4C80-AFA4-CAD2ECEAF0E8}" ShortID="435707112">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_ambient" ID="{6331189E-BC9F-41ED-BF6F-C09695944C7D}" WorkUnitID="{2FEF5410-8492-4D8A-8828-709452CC7011}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

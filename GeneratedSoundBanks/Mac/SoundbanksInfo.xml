@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>/Users/MpMiranda/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/Wwise-Preservation/</ProjectRoot>
+		<SourceFilesRoot>/Users/MpMiranda/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/Wwise-Preservation/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/MpMiranda/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/Wwise-Preservation/GeneratedSoundBanks/Mac/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/MpMiranda/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/Wwise-Preservation/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="2699110469">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX" Hash="2283464072">
+			<ObjectPath>\SoundBanks\Default Work Unit\main</ObjectPath>
+			<ShortName>main</ShortName>
+			<Path>main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="94063951" Name="play_ambiente" ObjectPath="\Events\Default Work Unit\play_ambiente" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="160891480" Language="SFX">
+							<ShortName>wind_120bpm.wav</ShortName>
+							<Path>SFX/wind_120bpm_4BACB3C6.wem</Path>
+						</File>
+						<File Id="881712007" Language="SFX">
+							<ShortName>wind_120bpm.wav</ShortName>
+							<Path>SFX/wind_120bpm_5E2BA45D.wem</Path>
+						</File>
+						<File Id="1045311171" Language="SFX">
+							<ShortName>wind_120bpm.wav</ShortName>
+							<Path>SFX/wind_120bpm_EE5F3EAD.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1288147546" Name="Play_sfx_ambient" ObjectPath="\Events\Default Work Unit\Play_sfx_ambient" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="69101487" Language="SFX">
+							<ShortName>pajaro_2_120bpm.wav</ShortName>
+							<Path>SFX/pajaro_2_120bpm_10C4C929.wem</Path>
+						</File>
+						<File Id="87939959" Language="SFX">
+							<ShortName>pajaro_lejano_69.91bpm.wav</ShortName>
+							<Path>SFX/pajaro_lejano_69.91bpm_10C4C929.wem</Path>
+						</File>
+						<File Id="993192625" Language="SFX">
+							<ShortName>pajaro_1_120bpm.wav</ShortName>
+							<Path>SFX/pajaro_1_120bpm_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

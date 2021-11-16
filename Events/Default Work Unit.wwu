@@ -25,6 +25,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_SFX_Jump1" ID="{19FEBD37-2CA2-4CEE-8A92-D58063CE9A38}">
+					<ChildrenList>
+						<Action Name="" ID="{BF5CFB18-904A-4FAD-8231-E97337E9827F}" ShortID="683489707">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Jump1" ID="{5428E4DB-61CA-4E11-BCAE-0A77EBBEAE24}" WorkUnitID="{2FEF5410-8492-4D8A-8828-709452CC7011}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

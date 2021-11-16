@@ -4,6 +4,7 @@
 		<UserProjectSettings Name="" ID="{4CA348C8-49A5-401B-8B2B-092504AA6DB8}">
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="Y:\Desktop\game_jam\"/>
+				<Property Name="Event Action List\{19FEBD37-2CA2-4CEE-8A92-D58063CE9A38}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{2FE92C4B-3AEB-42E9-92E7-934C39CAC9F5}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{8E392B74-B7E9-482F-AA57-F97C73446ABF}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{BA261C68-E6A2-4002-99E0-C904370EEFDB}\x64_Expand States" Type="string" Value=""/>

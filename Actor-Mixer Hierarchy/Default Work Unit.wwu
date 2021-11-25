@@ -665,6 +665,96 @@
 								<ItemRef Name="SFX_LightOff" ID="{563CDCF7-7F19-4143-B8AE-3871FCDB4E70}"/>
 							</Playlist>
 						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="sfx_muere" ID="{ECA1320A-56C4-4A48-A834-C7E3C17082A8}" ShortID="183277704">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83E147AB-54D8-44F8-A7F4-97536BA5B921}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{193829A1-FA40-4356-B650-9ECE990ECF9B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="personaje_muere" ID="{8EA0CED2-3B38-4A13-8CC4-446EE27F44F7}" ShortID="856801218">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83E147AB-54D8-44F8-A7F4-97536BA5B921}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{193829A1-FA40-4356-B650-9ECE990ECF9B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="personaje_muere" ID="{6DD5DE21-F82E-42D6-8FCD-869226FA56A2}">
+											<Language>SFX</Language>
+											<AudioFile>personaje_muere.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="680198452"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="personaje_muere" ID="{6DD5DE21-F82E-42D6-8FCD-869226FA56A2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="personaje_muere_2" ID="{0D4FE648-7749-4B91-8E66-A1BB8024EE93}" ShortID="1025332754">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83E147AB-54D8-44F8-A7F4-97536BA5B921}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{193829A1-FA40-4356-B650-9ECE990ECF9B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Stinger Game over Battle Sn" ID="{2E5ECD06-6546-4EBC-81E6-D32E8C09EB81}">
+											<Language>SFX</Language>
+											<AudioFile>Stinger Game over Battle Sn.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="861117236"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Stinger Game over Battle Sn" ID="{2E5ECD06-6546-4EBC-81E6-D32E8C09EB81}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+						<Sound Name="sfx_generador_120bpm" ID="{B0F30A5F-372B-4D72-BD8B-78555C5E76F9}" ShortID="237538833">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83E147AB-54D8-44F8-A7F4-97536BA5B921}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{193829A1-FA40-4356-B650-9ECE990ECF9B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_generador_120bpm" ID="{158F8729-58E1-4DF0-BC21-77407EB84065}">
+									<PropertyList>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>-9.8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>sfx_generador_120bpm.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1041617874"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_generador_120bpm" ID="{158F8729-58E1-4DF0-BC21-77407EB84065}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<WorkUnit Name="nada" ID="{19B4EBF8-65C4-4C9F-9AE8-92AC14AEDA6A}" PersistMode="Reference"/>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="SFX_Player" ID="{781E24A8-38AE-4F9D-820C-F75A95CB2955}" ShortID="772364944">
@@ -1043,6 +1133,79 @@
 								<ItemRef Name="SFX_CollectItem_06" ID="{EABA11A3-2DD7-4D94-9C9E-A4B9C68C3F59}"/>
 							</Playlist>
 						</RandomSequenceContainer>
+						<Sound Name="sfx_steps" ID="{C6A615CD-779F-49B6-9084-60C5C1FA9B8E}" ShortID="648258048">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83E147AB-54D8-44F8-A7F4-97536BA5B921}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{193829A1-FA40-4356-B650-9ECE990ECF9B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="STEP_I" ID="{161D63C0-706F-43AE-A25F-9B8715CEF157}">
+									<Language>SFX</Language>
+									<AudioFile>STEP_I.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="823383732"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="STEP_I" ID="{161D63C0-706F-43AE-A25F-9B8715CEF157}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="SFX_Buttons" ID="{880D2F09-0F3E-45BD-AE16-16C7FD5DDA6A}" ShortID="610989214">
+					<ChildrenList>
+						<Sound Name="button_2" ID="{0FAC43B7-596A-43C8-B32E-A97D6DDABEEB}" ShortID="366988183">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83E147AB-54D8-44F8-A7F4-97536BA5B921}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{193829A1-FA40-4356-B650-9ECE990ECF9B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="boton_planeta1" ID="{11E46D1B-7A3F-4E37-B466-BEC0242154D1}">
+									<Language>SFX</Language>
+									<AudioFile>boton_planeta1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="789127350"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="boton_planeta1" ID="{11E46D1B-7A3F-4E37-B466-BEC0242154D1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="button_1" ID="{DFA3B71B-69E0-43B4-A328-789A756A36C7}" ShortID="1052136212">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83E147AB-54D8-44F8-A7F4-97536BA5B921}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{193829A1-FA40-4356-B650-9ECE990ECF9B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="button_1" ID="{E83624C8-1880-454F-B31B-1DCE9F8381F5}">
+									<Language>SFX</Language>
+									<AudioFile>button_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="257097975"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="button_1" ID="{E83624C8-1880-454F-B31B-1DCE9F8381F5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>/Users/juanalbertsen/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/DSVJ03_WwiseProject/Preservation/</ProjectRoot>
-		<SourceFilesRoot>/Users/juanalbertsen/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/DSVJ03_WwiseProject/Preservation/.cache/Windows/</SourceFilesRoot>
-		<SoundBanksRoot>/Users/juanalbertsen/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/DSVJ03_WwiseProject/Preservation/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ProjectRoot>/Users/MpMiranda/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/Preservation/</ProjectRoot>
+		<SourceFilesRoot>/Users/MpMiranda/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/Preservation/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/MpMiranda/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/Preservation/GeneratedSoundBanks/Windows/</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>/Users/juanalbertsen/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/DSVJ03_WwiseProject/Preservation/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>/Users/MpMiranda/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/Preservation/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2021000223">
+		<SoundBank Id="1355168291" Language="SFX" Hash="2338751834">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="2303215290">
+		<SoundBank Id="3161908922" Language="SFX" Hash="4287307292">
 			<ObjectPath>\SoundBanks\Default Work Unit\main</ObjectPath>
 			<ShortName>main</ShortName>
 			<Path>main.bnk</Path>
@@ -25,7 +25,7 @@
 					<IncludedMemoryFiles>
 						<File Id="429520276" Language="SFX">
 							<ShortName>SFX_CollectItem.wav</ShortName>
-							<Path>SFX/SFX_CollectItem_F4B97495.wem</Path>
+							<Path>SFX/SFX_CollectItem_AD53A999.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -33,7 +33,7 @@
 					<IncludedMemoryFiles>
 						<File Id="691438173" Language="SFX">
 							<ShortName>SFX_collect_special.wav</ShortName>
-							<Path>SFX/SFX_collect_special_07C40B8D.wem</Path>
+							<Path>SFX/SFX_collect_special_436F66A1.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -41,7 +41,7 @@
 					<IncludedMemoryFiles>
 						<File Id="444522564" Language="SFX">
 							<ShortName>enemy.wav</ShortName>
-							<Path>SFX/enemy_A58336B2.wem</Path>
+							<Path>SFX/enemy_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -70,6 +70,14 @@
 						<File Id="918173583" Language="SFX">
 							<ShortName>SFX_LightOn.wav</ShortName>
 							<Path>SFX/SFX_LightOn_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2013246097" Name="music_menu_play" ObjectPath="\Events\Default Work Unit\music_menu_play" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="340723277" Language="SFX">
+							<ShortName>main_menu PRESERVATION_84pbm.wav</ShortName>
+							<Path>SFX/main_menu PRESERVATION_84pbm_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -204,7 +212,7 @@
 				<Event Id="2837384057" Name="stop_Music" ObjectPath="\Events\Default Work Unit\stop_Music" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="4072029455" Language="SFX">
+		<SoundBank Id="4072029455" Language="SFX" Hash="3355021290">
 			<ObjectPath>\SoundBanks\Default Work Unit\New_SoundBank</ObjectPath>
 			<ShortName>New_SoundBank</ShortName>
 			<Path>New_SoundBank.bnk</Path>

@@ -1208,6 +1208,36 @@
 						</Sound>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Music_menu" ID="{1D053E6B-E077-40CE-BB38-5F1F8E87EDE6}" ShortID="505203807">
+					<ChildrenList>
+						<Sound Name="main_menu PRESERVATION_84pbm" ID="{F5FC362A-BD8E-457F-B4B1-2B133C44880D}" ShortID="514076421">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{83E147AB-54D8-44F8-A7F4-97536BA5B921}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{193829A1-FA40-4356-B650-9ECE990ECF9B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="main_menu PRESERVATION_84pbm" ID="{4BFCFCA8-2830-48B9-8B74-DE0F7150E794}">
+									<Language>SFX</Language>
+									<AudioFile>main_menu PRESERVATION_84pbm.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="340723277"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="main_menu PRESERVATION_84pbm" ID="{4BFCFCA8-2830-48B9-8B74-DE0F7150E794}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

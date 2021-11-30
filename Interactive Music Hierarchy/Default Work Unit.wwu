@@ -3,7 +3,6 @@
 	<InteractiveMusic>
 		<WorkUnit Name="Default Work Unit" ID="{1BA39DF3-1588-4D7E-A418-0C1F7E37FE40}" PersistMode="Standalone">
 			<ChildrenList>
-				<Folder Name="Music_menu" ID="{F60125A8-4B95-45F0-B015-CC164A81D4B7}" ShortID="259901527"/>
 				<Folder Name="Music_background" ID="{A459A25C-BEEE-4FE0-B5AD-34624B0B3EFA}" ShortID="324654529">
 					<ChildrenList>
 						<MusicPlaylistContainer Name="Music" ID="{22993EF6-59DA-4772-9461-6F7FCF03116B}" ShortID="873344566">

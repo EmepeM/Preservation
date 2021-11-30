@@ -112,6 +112,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="music_menu_play" ID="{0DAFCDA5-D10B-4DEB-A157-FB443590789E}">
+					<ChildrenList>
+						<Action Name="" ID="{A5899D51-0264-45B9-990E-CE03B802A6F1}" ShortID="703574629">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="main_menu PRESERVATION_84pbm" ID="{F5FC362A-BD8E-457F-B4B1-2B133C44880D}" WorkUnitID="{2FEF5410-8492-4D8A-8828-709452CC7011}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

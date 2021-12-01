@@ -754,7 +754,6 @@
 								<ActiveSource Name="sfx_generador_120bpm" ID="{158F8729-58E1-4DF0-BC21-77407EB84065}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<WorkUnit Name="nada" ID="{19B4EBF8-65C4-4C9F-9AE8-92AC14AEDA6A}" PersistMode="Reference"/>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="SFX_Player" ID="{781E24A8-38AE-4F9D-820C-F75A95CB2955}" ShortID="772364944">

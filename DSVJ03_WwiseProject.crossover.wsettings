@@ -5,6 +5,7 @@
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="Y:\Desktop\GAME_PRESERVATION\fxs\"/>
 				<Property Name="Event Action List\{02493E63-C95A-4329-951B-CA0427F39096}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{0446DD03-32A6-480F-8AD5-7CF12D91899C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{0DAFCDA5-D10B-4DEB-A157-FB443590789E}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{19FEBD37-2CA2-4CEE-8A92-D58063CE9A38}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{2ED9E906-21E0-4F34-8F70-866EA3FFC53E}\x64_Expand States" Type="string" Value=""/>
@@ -13,8 +14,10 @@
 				<Property Name="Event Action List\{6F81619E-44D5-4A01-BD8C-6C2C9D700695}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{8E392B74-B7E9-482F-AA57-F97C73446ABF}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{9063F66A-8264-45B4-87D5-C08866969A41}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{A4A31645-C4BA-4A79-91B2-AE8812AA6176}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{BA261C68-E6A2-4002-99E0-C904370EEFDB}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{CB30E6D1-101D-42EB-AAFA-09EA6145C7AD}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{D02B42A0-7DE9-4031-B87E-E12F3F8AAABF}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{D43BF316-C463-431E-B69E-BCEC8769A75C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{F39C3590-8567-467B-BD98-F4FD737DF8C0}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>

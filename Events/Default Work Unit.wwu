@@ -70,7 +70,7 @@
 						<Action Name="" ID="{2068C4D5-F045-4ED7-89C1-BE04242A7FFB}" ShortID="101842776">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="SFX_Collect" ID="{913A9931-F365-415B-826F-BD15FE041684}" WorkUnitID="{2FEF5410-8492-4D8A-8828-709452CC7011}"/>
+									<ObjectRef Name="sfx_collect" ID="{72E511AC-4965-4595-B10B-A463B8497406}" WorkUnitID="{2FEF5410-8492-4D8A-8828-709452CC7011}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -118,6 +118,42 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="main_menu PRESERVATION_84pbm" ID="{F5FC362A-BD8E-457F-B4B1-2B133C44880D}" WorkUnitID="{2FEF5410-8492-4D8A-8828-709452CC7011}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="exit_menu" ID="{D02B42A0-7DE9-4031-B87E-E12F3F8AAABF}">
+					<ChildrenList>
+						<Action Name="" ID="{5BF4058E-CACD-49ED-AD36-0CCE747F1B20}" ShortID="991319604">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="main_menu PRESERVATION_84pbm" ID="{F5FC362A-BD8E-457F-B4B1-2B133C44880D}" WorkUnitID="{2FEF5410-8492-4D8A-8828-709452CC7011}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="button_hover" ID="{0446DD03-32A6-480F-8AD5-7CF12D91899C}">
+					<ChildrenList>
+						<Action Name="" ID="{999E1055-1EB0-4EA5-A1D1-5005923756E2}" ShortID="1035751588">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="button_1" ID="{DFA3B71B-69E0-43B4-A328-789A756A36C7}" WorkUnitID="{2FEF5410-8492-4D8A-8828-709452CC7011}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="button_select" ID="{A4A31645-C4BA-4A79-91B2-AE8812AA6176}">
+					<ChildrenList>
+						<Action Name="" ID="{6B124225-5106-4439-82B1-B45FFA4B113B}" ShortID="813292166">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="button_2" ID="{0FAC43B7-596A-43C8-B32E-A97D6DDABEEB}" WorkUnitID="{2FEF5410-8492-4D8A-8828-709452CC7011}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
